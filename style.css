@@ -1,0 +1,122 @@
+body{
+    /*overflow: hidden;*/
+}
+
+
+#top{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top{
+    height:700px;
+    background-image: url(assets/backgrounds/hero.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.text{
+    text-align: center;
+    position :absolute;
+    top:60%;
+    left: 5%;
+}
+.info{
+    margin-bottom:4%;
+}
+.info  p{
+    color: white;
+    font-size:4em;
+    margin: 57px,370px,10px,0;
+
+
+}
+h1{
+    font-size: 4em;
+    color: white;
+}
+p{
+    color:white;
+    font-size: 1.4em;
+}
+.tiny{
+    text-align: center;
+    position:absolute;
+    left: 21%;
+}
+.gender{
+    padding: 24%;
+    background-color: grey;
+}
+.gender .nav-item{
+    padding:10%;
+    margin-right:15%;
+}
+
+#m_icon{
+    margin-top:40%;
+}
+.horizontal{
+    height:1%;
+}
+.single-product{
+    background-color: grey;
+    margin-left:5%;
+}
+.single-product:hover{
+    border: 5px;
+    border-color: brown;
+}
+div.men{
+    margin-bottom: 50px;
+}
+div.m_range{
+    margin-right:20px;
+}
+div.w_range{
+    margin-left: 20px;
+}
+div.price{
+padding-bottom: 0%;
+}
+div.discount{
+    padding-top: 10px;
+}
+div.birdy{
+    margin-right: 45px;
+}
+
+
+section.about{
+    background-image: url(assets/backgrounds/about.jpg);
+    height: 400px;
+    margin-top: 150px;
+}
+div.discount{
+    background-color: grey;
+    padding-top: 15px;
+    height: 70px;
+}
+footer{
+    padding-top: 30px;
+    height: 350px;
+    background-color: black;
+}
+footer.bottom_section{
+
+    /*height: 400px;*/
+}
+div.s_icon{
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+div
+div.rights{
+    margin-top: 40px;
+}
+p.style_text{
+    font-size: 1em;
+}
