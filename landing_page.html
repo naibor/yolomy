@@ -17,53 +17,63 @@
            <a class="navbar-brand" href="#"><img src="assets/logo/logo.png"></a>
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><img src="assets/logo/shop.png"></a></li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <p>Home</p> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><p>Products</p></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="assets/logo/shop.png"></a></li>
                 </ul>
             </div>
         </nav>
         <!-- text in the middle -->
         <section class="container text">
-            <div class="row info">
-                <div class="col-sm-12">
-                    <p>Our clothing, your comfort</p>
+            <div class="position_text">
+                <div class="row info justify-content-center">
+                        <p>Our clothing, your comfort</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-8">
-                    <div>
-                        <p>We understand that you need to look great and feel great.<br>
-                            It all starts with what you are wearing.
-                        </p>
+                <div class="s_text">
+                    <div class="row justify-content-center">
+                        <p>We understand that you need to look great and feel great.</p>
+                    </div>
+                    <div class="row justify-content-center ">
+                        <p>It all starts with what you are wearing.</p>
                     </div>
                 </div>
+                
+                   
+                        
+                
             </div>
+            
             <!-- mouse scroll icon -->
-            <div class="row m_icon">
-                <div class="col-md-4 offset-sm-2">
+            <div class="row m_icon justify-content-center">
                     <img src="assets/mouse_click.png">
-                </div>
             </div>
         </section>
     </header>
     <section>
-        <nav class="navbar navbar-expand-lg gender">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <input class="nav-link" type="checkbox">men</input>
-                </li>
-                <li class="nav-item">
-                    <input class="nav-link" type="checkbox">women</input>
-                </li>
-                <li class="nav-item">
-                    <input class="nav-link" type="checkbox">children</input>
-                </li>
-                <li class="nav-item ml-40% justify-content-left">
-                    <button class="nav-link btn btn-danger">SEE ALL PRODUCTS</button>
-                </li>
-            </ul>
-        </nav>
+        <div class="container-fluid see_all">
+            <div class="row justify-content-center">
+                <div class="col-sm-2">
+                    <input class="nav-link" type="checkbox"><p>MEN</p></input>
+                </div>
+                <div class="col-sm-2">
+                    <input class="nav-link" type="checkbox"><p>WOMEN</p></input>
+                </div>
+                <div class="col-sm-2">
+                        <input class="nav-link" type="checkbox"><p>CHILDREN</p></input>
+                </div>
+                <div class="col-sm-6">
+                    <div class="row  justify-content-center">
+                        <button class="nav-link btn btn brownish">SEE ALL PRODUCTS</button>
+                    </div>
+                    
+                </div>     
+            </div>
+        </div>
         <div class="container-fluid">
             <hr class="horizontal">Men
             <div class="row justify-content-end m_range"> 1/5 <br> < > </div>
@@ -73,7 +83,7 @@
                 <div class=" single-product col-sm-3 offset-sm-1">
                     <div class="row size">
                         <!-- size dropdown row -->
-                        <div class="col-sm-6 justify-content-start">
+                        <div class="col-sm-7 justify-content-start">
                             <div class="dropdown">
                                 <button class="btn btn-default btn-m dropdown-toggle" type="button" data-toggle="dropdown"> SIZE
                                     <span class="glyphicon glyphicon-menu-down"></span></button>
@@ -89,7 +99,7 @@
                             </div>
                         </div>
                         <!-- colors avaiab dots at the end same row as size -->
-                        <div class="col-sm-6 justify-content-end">
+                        <div class="col-sm-5 justify-content-end">
                             <div class="row">
                                 <div class="col-sm-3 offset-sm-1 color green"></div>
                                 <div class="col-sm-3 offset-sm-1 color blue"></div>
@@ -103,13 +113,13 @@
                         <img src="assets/products/tshirt.png" alt="mens-shirt">
                     </div >
                     <!-- last row within shirt collumn -->
-                    <div class="row price">
+                    <div class="row">
                         <!-- name of product -->
-                        <div class="col-sm-6 justify-content-start">
-                            TSHIRT
+                        <div class="col-sm-8 justify-content-start">
+                            <p class="product_name">T-SHIRT</p>
                         </div>
                         <!-- price of product -->
-                        <div class="col-sm-6 justify-content-end ">
+                        <div class="col-sm-4 justify-content-end ">
                             <p class="product">&euro; 5,00</p>
                         </div>
                     </div>
@@ -139,13 +149,13 @@
                     <div class="row justify-content-center">
                         <img src="assets/products/pants.png" alt="pants">
                     </div>
-                    <div class="row">
+                    <div class="row product_price">
                         <!-- name of product -->
-                        <div class="col-sm-6 justify-content-start">
-                            PANTS FORCLAZ
+                        <div class="col-sm-8 justify-content-start">
+                            <p class="product_name">PANTS FORCLAZ</p>
                         </div>
                         <!-- price of product -->
-                        <div class="col-sm-6 justify-content-end">
+                        <div class="col-sm-4 justify-content-end">
                             <p class="product">&euro; 30,00</p>
                         </div>
                     </div>
@@ -160,17 +170,17 @@
                         </div>
                     </div>
                     <!-- the bag itself row -->
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center product_image">
                         <img src="assets/products/backpack.png" alt="backpack">
                     </div>
                     <!-- the product name and price row -->
-                    <div class="row" >
+                    <div class="row price_bag" >
                         <!-- name of product -->
-                        <div class="col-sm-6 justify-content-start">
-                            BACKPACK
+                        <div class="col-sm-8 justify-content-start">
+                            <p class="product_name">BACKPACK</p>
                         </div>
                         <!-- price of product -->
-                        <div class="col-sm-6 justify-content-end">
+                        <div class="col-sm-4 justify-content-end">
                             <p class="product">&euro; 60,00</p>
                         </div>
                     </div>
@@ -207,13 +217,13 @@
                         <img src="assets/products/giacket.png" alt="chacket!">
                     </div>
                     <!-- price and product name row -->
-                    <div class="row">
+                    <div class="row product_price">
                          <!-- name of product -->
-                        <div class="col-sm-6 justify-content-start">
-                            GIACKET
+                        <div class="col-sm-8 justify-content-start">
+                            <p class="product_name">GIACKET</p>
                         </div>
                         <!-- price of product -->
-                        <div class="col-sm-6 justify-content-end">
+                        <div class="col-sm-4 justify-content-end">
                             <p class="product">&euro; 60,00</p>
                         </div>
                     </div>
@@ -239,17 +249,17 @@
                         </div>
                     </div>
                 <!-- actual trekking shoe row -->
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center product_image">
                         <img src="assets/products/trekkingshoes.png" alt="trekkingshoes">
                     </div>
                     <!-- price and product name row -->
-                    <div class="row">
+                    <div class="row product_price shoe">
                          <!-- name of product -->
-                        <div class="col-sm-6 justify-content-start">
-                            TREKKING SHOES
+                        <div class="col-sm-8 justify-content-start">
+                            <p class="product_name ">TREKKING SHOES</p>
                         </div>
                         <!-- price of product -->
-                        <div class="col-sm-6 justify-content-end">
+                        <div class="col-sm-4 justify-content-end">
                             <p class="product">&euro; 80,00</p>
                         </div>
                     </div>
@@ -275,21 +285,28 @@
                     </div>
                     <!-- available color -->
                     <div class="col-sm-6 justify-content-end">
-                        COLORS<span></span>
+                        <!-- colors avaiab dots at the end same row as size -->
+                        <div class="col-sm-6 justify-content-end">
+                            <div class="row">
+                                <div class="col-sm-4  color purple"></div>
+                                <div class="col-sm-3  color white"></div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center ">
                     <img src="assets/products/tshirt_ladies.png" alt="ladies shirt">
                 </div>
                 <!-- price and product name row -->
-                <div class="row">
+                <div class="row product_price">
                          <!-- name of product -->
-                    <div class="col-sm-6 justify-content-start">
-                        T-SHIRT
+                    <div class="col-sm-8 justify-content-start">
+                        <p class="product_name">T-SHIRT</p>
                     </div>
                         <!-- price of product -->
-                    <div class="col-sm-6 justify-content-end">
+                    <div class="col-sm-4 justify-content-end">
                         <p class="product">&euro; 20,00</p>
                     </div>
                 </div>
@@ -318,12 +335,12 @@
                 <img src="assets/social_icons/twitter_bird.png" alt="twitter birdy">
             </div>
             <div>
-                <p>"SALE:Buy anything for 45%off.Uses the promo code CODE YOLOMY45 When you buy items."</p>
+                <p class="text_discount">"SALE:Buy anything for 45%off.Uses the promo code CODE YOLOMY45 When you buy items."</p>
             </div>
         </div>
         <footer class="row bottom_section">
             <div class="col-sm-3 offset-sm-1">
-                <p>YOLOMY.<p>
+                <p class="text_col_1">YOLOMY<p>
                 <p class="style_text">
                     WE ARE YOLOMY-WE UNDERSTAND<br>
                     FASHION AND STYLE.WE CRAFT OUR <br>
@@ -332,7 +349,7 @@
             </div>
             <div class="col-sm-3 offset-sm-1">
                 <div class="row">
-                    <p>We are social.</p>
+                    <p class="text_col_2">We are social</p>
                 </div>
                 <div class="row">
                     <div class="s_icon"><img src="assets/social_icons/g_plus.png" alt="google plus icon"></div>
@@ -350,9 +367,9 @@
                     <p class="style_text">COPYRIGHT 2015. YOLOMY INC</p>
                 </div>
             </div>
-            <div class="col-sm-3 offset-sm-1">
-                <p class="style_text">
-                CREDITS| PRIVACY| ABOUT| CONTACT
+            <div class="col-sm-3 offset-sm-1 ">
+                <p class="text_col_3 justify-content-center">
+                CREDITS | PRIVACY | ABOUT | CONTACT
                 </p>
                 <p>Yolomy:We Mean Fashion</p>
             </div>
