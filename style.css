@@ -62,14 +62,37 @@ p{
     height:1%;
 }
 .single-product{
-    background-color: grey;
+    background-color: gainsboro;
+    border: 5px;
+    border-color: gainsboro;
     margin-left:5%;
 }
 .single-product:hover{
-    border: 5px;
     border-color: brown;
 }
-div.men{
+/*div.row.size{*/
+    /*margin-bottom: 10px;*/
+/*}*/
+div.row.size{
+    margin-top: 10px;
+}
+div.color{
+    /*display: flex;*/
+    height:20px;
+    width: 5px;
+    border-radius: 100%;
+}
+div.color.green{
+    background-color: green;
+}
+div.color.blue{
+    background-color: red;
+}
+div.color.grey{
+    background-color: grey;
+}
+div.shirt{
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 div.m_range{
@@ -80,6 +103,9 @@ div.w_range{
 }
 div.price{
 padding-bottom: 0%;
+}
+div.product_price{
+    padding-left: 0px;
 }
 div.discount{
     padding-top: 10px;
@@ -94,10 +120,10 @@ section.about{
     height: 400px;
     margin-top: 150px;
 }
-fieldset{
+/*fieldset{
     border:3px solid brown !important;
-}
-div.about{
+}*/
+/*.about{
     height:240px;
     width: 70px;
     border:3px;
@@ -105,11 +131,16 @@ div.about{
     border-color: black;
     margin-top: 88px;
     margin-left:313px;
-}
-div.about h2{
+}*/
+/*div.about div h2{
     margin-top: -20px;
     margin-left: 198px;
     background-blend-mode: lighten;
+}*/
+
+legend{
+    border:3px !important;
+    border-color: brown !important;
 }
 div.discount{
     background-color: grey;
