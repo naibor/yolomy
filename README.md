@@ -11,4 +11,4 @@
 
 ## view the design
     click to view github pages:
-    [Yolomy!](https://naibor.github.io/yolomy/)
+    [Yolomy](https://naibor.github.io/yolomy/)
