@@ -30,62 +30,95 @@
         </nav>
         <!-- text in the middle -->
         <section class="container text">
-            <div class="position_text">
-                <div class="row info justify-content-center">
+                <div class="row info justify-content-center position_text">
+                    <div class="col-sm-12">
                         <p>Our clothing, your comfort</p>
+                    </div>
                 </div>
-                <div class="s_text">
-                    <div class="row justify-content-center">
+                <div class="row justify-content-center s_text">
+                    <div class="col-sm-12">
                         <p>We understand that you need to look great and feel great.</p>
                     </div>
-                    <div class="row justify-content-center ">
+                </div>
+                <div class="row justify-content-center s_text">
+                    <div class="col-sm-12">
                         <p>It all starts with what you are wearing.</p>
                     </div>
                 </div>
 
 
-
-
-            </div>
-
             <!-- mouse scroll icon -->
             <div class="row m_icon justify-content-center">
-                    <img src="assets/mouse_click.png">
+                <div class="col-sm-6 offset-sm-6">
+                    <a href="#"><img src="assets/mouse_click.png"></a>
+                </div>
             </div>
         </section>
     </header>
     <section>
         <div class="container-fluid see_all">
-            <div class="row justify-content-center">
+            <div class="row ">
                 <div class="col-sm-2">
-                    <div class="col-sm-6">
-                    <input class="nav-link" type="checkbox"></input>
-                </div>
-                <div class="col-sm-6">
-                    <p>MEN</p>
-                </div>
-                </div>
-                <div class="col-sm-2">
-                    <input class="nav-link" type="checkbox"><p>WOMEN</p></input>
-                </div>
-                <div class="col-sm-2">
-                        <input class="nav-link" type="checkbox"><p>CHILDREN</p></input>
-                </div>
-                <div class="col-sm-6">
-                    <div class="row  justify-content-center">
-                        <button class="nav-link btn btn brownish">SEE ALL PRODUCTS</button>
+                    <div class="row justify-content-start">
+                        <div class="col-sm-2">
+                            <input class="nav-link" type="checkbox"></input>
+                        </div>
+                        <div class="col-sm-10">
+                            <p>MEN</p>
+                        </div>
                     </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="row justify-content-start">
+                        <div class="col-sm-2">
+                            <input class="nav-link" type="checkbox"></input>
+                        </div>
+                    <div class="col-sm-10">
+                        <p>WOMEN</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <input class="nav-link" type="checkbox"></input>
+                        </div>
+                        <div class="col-sm-10">
+                            <p>CHILDREN</p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-sm-6">
+                    <div class="row  justify-content-end">
+                        <div class="col-sm-5 offset-sm-7">
+                            <button class="nav-link btn btn brownish">SEE ALL PRODUCTS</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- products -->
         <div class="container-fluid">
-            <hr class="horizontal">Men
-            <div class="row justify-content-end m_range"> 1/5 <br> < > </div>
+            <div class="row horizon">
+                <div class="col-sm-1">
+                    <p class="men">MEN</p>
+                </div>
+                <div class="col-sm-11">
+                    <hr class="horizontal">
+                </div>
+            </div>
+
+            <div class="row justify-content-end m_range">
+                <div col-sm-12>
+                    1/5 <br> < >
+                </div>
+
+            </div>
             <!-- men's products -->
             <div class="row men">
                 <!-- men's shirt -->
-                <div class=" single-product col-sm-3 offset-sm-1">
+                <div class=" single-product col-sm-3 ">
                     <div class="row size">
                         <!-- size dropdown row -->
                         <div class="col-sm-7 justify-content-start">
@@ -114,9 +147,11 @@
                         </div>
                     </div>
                     <!-- the shirt -->
-                    <div class="row justify-content-center shirt">
-                        <img src="assets/products/tshirt.png" alt="mens-shirt">
-                    </div >
+                    <div class="row justify-content-center ">
+                        <div class="col-sm-8 shirt">
+                            <img src="assets/products/tshirt.png" alt="mens-shirt">
+                        </div>
+                    </div>
                     <!-- last row within shirt collumn -->
                     <div class="row">
                         <!-- name of product -->
@@ -152,7 +187,10 @@
                     </div>
                     <!-- the pants -->
                     <div class="row justify-content-center">
-                        <img src="assets/products/pants.png" alt="pants">
+                        <div class="col-sm-12 shirt">
+                            <img src="assets/products/pants.png" alt="pants">
+                        </div>
+
                     </div>
                     <div class="row product_price">
                         <!-- name of product -->
@@ -194,11 +232,23 @@
             </div>
 
             <!-- women's products -->
-            <hr>women
-            <div class="row justify-content-start w_range"> 1/5 <br> < > </div>
+
+            <div class="row horizon">
+                <div class="col-sm-11">
+                    <hr class="horizontal">
+                </div>
+                <div class="col-sm-1">
+                    <p class="men">WOMEN</p>
+                </div>
+            </div>
+            <div class="row justify-content-start w_range">
+                <div col-sm-12>
+                    1/5 <br> < >
+                </div>
+            </div>
             <div class="row">
                 <!-- giacket for women -->
-                <div class=" single-product col-sm-3 offset-sm-1">
+                <div class=" single-product col-sm-3">
                     <div class="row size">
                         <!-- size dropdown row -->
                         <div class="col-sm-6 justify-content-start">
@@ -320,26 +370,34 @@
         </div>
     </section>
 
+    <!-- mouse scroll icon -->
+    <!-- <div class="row m_icon justify-content-center">
+        <div class="col-sm-6 offset-sm-6">
+            <a href="#"><img src="assets/mouse_click.png"></a>
+        </div>
+    </div> -->
+
+    <!-- about -->
     <section class="container-fluid about">
         <div class = "row ">
-                <div class ="col-sm-6 offset-sm-3" >
-                    <fieldset>
-                        <legend>ABOUT US</legend>
-                            <p>This is where high fashion clothing is designed <br>
-                            and crafted from the heart by <br>
-                            an amazing team of craftmen and designers<br>
-                            who understand what fashion is.
-                            </p>
-                    </fieldset>
-                </div>
+            <div class ="col-sm-6 offset-sm-3" >
+                <fieldset>
+                    <legend>ABOUT US</legend>
+                        <p>This is where high fashion clothing is designed <br>
+                        and crafted from the heart by <br>
+                        an amazing team of craftmen and designers<br>
+                        who understand what fashion is.
+                        </p>
+                </fieldset>
+            </div>
        </div>
     </section>
     <section class="container-fluid">
-        <div class="row discount justify-content-center">
-            <div class="birdy">
+        <div class="row discount">
+            <div class=" col-sm-2 birdy">
                 <img src="assets/social_icons/twitter_bird.png" alt="twitter birdy">
             </div>
-            <div>
+            <div class="col-sm-10">
                 <p class="text_discount">"SALE:Buy anything for 45%off.Uses the promo code CODE YOLOMY45 When you buy items."</p>
             </div>
         </div>
@@ -354,22 +412,44 @@
             </div>
             <div class="col-sm-3 offset-sm-1">
                 <div class="row">
-                    <p class="text_col_2">We are social</p>
+                    <div class="col-sm-8 offset-sm-4">
+                        <p class="text_col_2">We are social</p>
+                    </div>
+
                 </div>
                 <div class="row">
-                    <div class="s_icon"><img src="assets/social_icons/g_plus.png" alt="google plus icon"></div>
-                    <div class="s_icon"><img src="assets/social_icons/facebook.png" alt="facebook icon"></div>
-                    <div class="s_icon"><img src="assets/social_icons/you_tube.png" alt="youtube icon"></div>
-                    <div class="s_icon"><img src="assets/social_icons/stumble_upon.png" alt="stumble upon icon"></div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/g_plus.png" alt="google plus icon"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/facebook.png" alt="facebook icon"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/you_tube.png" alt="youtube icon"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/stumble_upon.png" alt="stumble upon icon"></div>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="s_icon"><img src="assets/social_icons/skype.png" alt="skype icon"></div>
-                    <div class="s_icon"><img src="assets/social_icons/flickr.png" alt="flicker icon"></div>
-                    <div class="s_icon"><img src="assets/social_icons/twitter.png" alt="twitter icon"></div>
-                    <div class="s_icon"><img src="assets/social_icons/pinterest.png" alt="pinterest icon"></div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/skype.png" alt="skype icon"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/flickr.png" alt="flicker icon"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/twitter.png" alt="twitter icon"></div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="s_icon"><img src="assets/social_icons/pinterest.png" alt="pinterest icon"></div>
+                    </div>
                 </div>
                 <div class="row rights">
-                    <p class="style_text">COPYRIGHT 2015. YOLOMY INC</p>
+                    <div class="col-sm-8 offset-sm-4">
+                        <p class="style_text">COPYRIGHT 2015. YOLOMY INC</p>
+                    </div>
+
                 </div>
             </div>
             <div class="col-sm-3 offset-sm-1 ">
