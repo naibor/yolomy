@@ -190,12 +190,17 @@ div.birdy{
 
 section.about{
     background-image: url(assets/backgrounds/about.jpg);
-    height: 400px;
-    margin-top: 150px;
+    height: 402px;
+    margin-top: 140px;
 }
-/*fieldset{
-    border:3px solid brown !important;
-}*/
+fieldset{
+    /*border:3px solid brown !important;*/
+    /*padding-top: 104px;*/
+
+}
+p.about{
+    text-align: center;
+}
 /*.about{
     height:240px;
     width: 70px;
@@ -212,8 +217,12 @@ section.about{
 }*/
 
 legend{
-    border:3px !important;
-    border-color: brown !important;
+    /*border:3px !important;*/
+    /*border-color: brown !important;*/
+    padding-left: 100px;
+}
+legend p{
+    text-align: center;
 }
 div.discount{
     background-color: grey;
