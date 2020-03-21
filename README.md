@@ -10,4 +10,5 @@
     HTML and CSS
 
 ## view the design
-        click to view github pages:    [Yolomy](https://naibor.github.io/yolomy/)
+        click to view github pages:
+        [Yolomy](https://naibor.github.io/yolomy/)
